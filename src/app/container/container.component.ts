@@ -69,9 +69,10 @@ export class ContainerComponent implements OnInit {
   }
 
   add(letter: any): void {
-    if(!this.attempts.includes(letter.value) && this.buttonState){
-      this.attempts.push(letter.value)
-      this.setHits(letter.value);
+    letter = letter.value.toLowerCase();
+    if(!this.attempts.includes(letter) && this.buttonState){
+      this.attempts.push(letter)
+      this.setHits(letter);
       this.mistakes = this.attempts.length - this.hits.length 
       console.log(this.attempts, this.word,this.hits, this.mistakes)
     }else{
