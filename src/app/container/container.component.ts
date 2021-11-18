@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 
+
 @Component({
   selector: 'app-container',
   templateUrl: './container.component.html',
@@ -9,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class ContainerComponent implements OnInit {
 
 
-  words: string[] = ['abajur', 'abridor', 'açucareiro', 'adaga', 'agulha', 'alfinete', 'algema', 'alicate', 'almofada', 'âncora', 'andador', 'anel', 'antena', 'anzol', 'apagador', 'apito', 'apontador', 'aquecedor', 'arco', 'aro', 'aspirador', 'azulejo'];
+  words: string[] = ["anzol","andador","apontador","almofada","abajour","bola","balao","botas","bexiga","borracha","escolar","cd","colher","caneta","camisa","camiseta","calça","castiçal","copo","carimbo","dado","dedal","dicionario","diario","dvd","dentadura","escada","escova","espelho","espada","esmalte","faca","facao","folha","furadeira","ferradura","funil","farol","gaiola","garfo","gargantilha","garrafa","gaveta","guitarra","gaita","gravata","gorro","harpa","helice","holofote","isqueiro","ima","isopor","isca","inalador","incenso","jarra","joias","jaqueta","janela","lapis","luvas","lampada","luminaria","leque","lenço","livro","lanterna","lixeira","lapiseira","lata","mola","maquiagem","meias","mala","mochila","navalha","novelo","navio","de","brinquedo","oculos","obras","de","arte","Óculos","de","sol","panela","pedra","papel","pen","drive","prato","pulseira","queijeira","quebra","cabeça","quadro","regua","ratoeira","roleta","relogio","remo","roteador","rimel","revista","sandalia","sapato","saleiro","sino","saco","sacola","saco","de","pancadas","sabonete","shorts","tesoura","teclado","telefone","tampa","termometro","trena","telha","tatame","tamanco","urna","ursinho","de","pelucia","uniforme","umidificador","de","ar","vassoura","ventilador","vara","de","pescar","varal","vaso","vidro","viseira","vela","xicara","xadrez","xale","xarope","ziper","zarabatana"];
 
   randInt = this.generateRandom(this.words.length);
 
@@ -38,6 +39,7 @@ export class ContainerComponent implements OnInit {
   
 
   constructor() {
+    
     
    }
 
