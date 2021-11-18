@@ -1,0 +1,29 @@
+<div class="header">
+    <h1>Jogo da Forca</h1>
+    <app-game-status [victories]="victories" [defeats]="defeats" [attempts]="attempts"></app-game-status>
+</div>
+<div class="container">
+    <div class="menu">
+        <div class="game">
+            <input type="text" maxlength="1"
+            #letter/>
+            <button class="BUTTON_ZUZ" (click)="add(letter)" (click)="letter.value = ''">Submit</button>
+            <button class="BUTTON_ZUZ" (click)="restartGame()">Reiniciar Jogo</button>
+        </div>
+
+
+        <app-mistakes [mistakes]="mistakes"></app-mistakes>
+       
+        <div>
+            <span *ngFor="let letter of exibitionArray" #exibitionArray>
+                {{letter}}
+            </span> 
+            <h2>{{this.message}}</h2>       
+        </div>
+    </div>
+    <div class="images">  
+        <app-images [mistakes]="mistakes"></app-images>  
+    </div>
+    
+</div>
+        

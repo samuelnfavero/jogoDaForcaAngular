@@ -1,0 +1,113 @@
+.header{
+   display: flex;
+   align-items: center;
+}
+
+div.container{
+    display: flex;
+    align-items: center;
+}
+div.images{
+   width: 425px;
+   height: 610px;
+}
+div.game{
+    display: flex;
+    align-items: center;
+}
+
+span{
+    font-size: 50px;    
+}
+
+input{
+    color: black;
+    width: 50px;
+    height: 40px;
+    margin: 10px 0 10px 0;
+    font-size: 40px;
+    
+}
+
+button.BUTTON_ZUZ {
+    background: #BBBCBF;
+    background-image: -webkit-linear-gradient(top, #BBBCBF, #EFF2F7);
+    background-image: -moz-linear-gradient(top, #BBBCBF, #EFF2F7);
+    background-image: -ms-linear-gradient(top, #BBBCBF, #EFF2F7);
+    background-image: -o-linear-gradient(top, #BBBCBF, #EFF2F7);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 7px;
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #FFFFFF 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin:10px;
+    
+ }
+ 
+ .BUTTON_ZUZ:hover {
+    border: solid #505050 0;
+    background: #F5F6F9;
+    background-image: -webkit-linear-gradient(top, #F5F6F9, #626262);
+    background-image: -moz-linear-gradient(top, #F5F6F9, #626262);
+    background-image: -ms-linear-gradient(top, #F5F6F9, #626262);
+    background-image: -o-linear-gradient(top, #F5F6F9, #626262);
+    background-image: -webkit-gradient(to bottom, #F5F6F9, #626262);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ img.arm1{
+    position: relative;
+    top: -420px;
+    right: 52px;
+ }
+
+ img.arm2{
+    position: relative;
+    top: -420px;
+    right: 47px;
+ }
+
+ img.leg1{
+    position: relative;
+    top: -292px;
+    right: 212px;
+ }
+
+ img.leg2{
+    position: relative;
+    top: -292px;
+    right: 207px;
+ }
+
+ img.body{
+    position: relative;
+    top: -521px;
+    right: -58px;
+ }
+ 
+ img.total{
+   position: relative;
+   top: -595px;
+   right: 30px;
+}
+
+img.circle{
+   position: relative;
+   top: -519px;
+   right: -64.5px;
+}

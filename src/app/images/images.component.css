@@ -1,0 +1,41 @@
+img.arm1{
+    position: relative;
+    top: -420px;
+    right: 52px;
+ }
+
+ img.arm2{
+    position: relative;
+    top: -420px;
+    right: 47px;
+ }
+
+ img.leg1{
+    position: relative;
+    top: -292px;
+    right: 212px;
+ }
+
+ img.leg2{
+    position: relative;
+    top: -292px;
+    right: 207px;
+ }
+
+ img.body{
+    position: relative;
+    top: -521px;
+    right: -58px;
+ }
+ 
+ img.total{
+   position: relative;
+   top: -595px;
+   right: 30px;
+}
+
+img.circle{
+   position: relative;
+   top: -519px;
+   right: -64.5px;
+}

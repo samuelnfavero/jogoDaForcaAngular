@@ -1,0 +1,8 @@
+.game-status{
+    display: flex;
+    margin-left: 80px;
+}
+
+.game-status h2{
+    margin-left: 20px;
+}
